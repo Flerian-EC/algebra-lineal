@@ -1,1 +1,40 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="home-header">
+    <div class="home-header__text-contaier">
+      <p>ALGEGRA LINEAL</p>
+      <p>Fabian Juel Escalera Caballero</p>
+    </div>
+    <div id="ventana-button" class="home-header__icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <span class="home-header__line"></span>
+  </header>
+  <main class="home-main">
+    <section id="ventana-inf" class="home-inf">
+      <div class="home-inf__container">
+        <div class="window-home-inf">
+          <h1>El código del color</h1>
+          <p>Para entender el código de los colores es necesario conocer el modelo RGB.</p>
+          <h2>RGB</h2>
+        </div>
+      </div>
+    </section>
+    <div class="calc-container">
+      <label for="hexa-number" class="calc-container__title">Ingresa la dimensión de una matriz cuadrada</label>
+      <input id="hexa-number" class="calc-container__number" type="text" maxlength="1" placeholder="dimensión">
+      <button id="calc-button" class="calc-container__button">generar</button>
+      <div id="principal-color" class="calc-container__principal-color"></div>
+    </div>
+  </main>
+</body>
+</html>
