@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./style.css">
+  <script defer src="./script.js"></script>
 </head>
 <body>
   <header class="home-header">
@@ -33,7 +34,20 @@
       <label for="hexa-number" class="calc-container__title">Ingresa la dimensión de una matriz cuadrada</label>
       <input id="hexa-number" class="calc-container__number" type="text" maxlength="1" placeholder="dimensión">
       <button id="calc-button" class="calc-container__button">generar</button>
-      <div id="principal-color" class="calc-container__principal-color"></div>
+      <label for="hexa-number" class="calc-container__title">luego llena de valores la matriz</label>
+      <div id="principal-color" class="calc-container__principal-color">
+        
+        <div id="container-matriz" class="calc-container__principal-color--matriz">
+          
+        </div>
+        
+      </div>
+
+      <div class="calc-container__principal-botonesGenerador">
+        <button class="calc-container__button generar-matriz">inversa</button>
+        <button class="calc-container__button generar-matriz">transpuesta</button>
+      </div>
+
     </div>
   </main>
 </body>
